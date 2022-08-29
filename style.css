@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family:sans-serif;
+  color:black;
 }
 
 header, about-me, nav {
@@ -9,11 +10,26 @@ header, about-me, nav {
    align-items: center;
 }
 
-nav {
-  /* flex:1; */
-  background: #b2ffb2;
-  height: 40px;
- 
+  nav {
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    /* border-bottom: 10px solid black; */
+    box-shadow: 0px 1px 10px #000000; 
+}
+ul{
+    display: flex;
+    list-style: none;
+    color: black;
+}
+a{
+    margin: 5px 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+a:hover{
+    color: rgb(218, 0, 0);
 }
 
 about-me, header {
