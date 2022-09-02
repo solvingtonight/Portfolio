@@ -241,36 +241,57 @@ skill-box {
 
   display: flex;
   flex-direction: column;
-  height: 30vh;
+  
   font-size: 1.5rem;
   color: blue; 
   /* border: 2px solid blue; */
   /* border-radius: 100x; */
-  padding: 5vw 5vh;
+  /* padding: .1vw .1vh; */
   border-radius: 9px;
   /* font-size: 40px; */
-  /* width: 50%; */
   /* position: static; */
   /* display:flex; */
-flex: 1;
+/* flex: 1; */
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  /* align-center: middle; */
+  /* align: middle; */
   transition-duration: 0.3s;
-  width: 50vw;
-  margin: auto;
-  text-align: center;
+  /* width:20vw;
+  height:  10vh; */
+  /* margin: auto; */
 
-  }
-
-  .skill-images {
-    object-fit: scale-down;
-    float: top;
-  position: relative;
-  width: 10vw;
-
-        
+ 
+ 
+    width: 300px;
+    height: 150px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    /* margin: 0; */
   }
   
+ .skill-images {
+    display: inside;
+    /* position: absolute; */
+    width: 1px;
+    /* min-height: 10px;
+    min-width: 10px; */
+    /* transform: translate(-50%, -50%); */
+  }
+  
+
+
+   /* object-fit: contain; */
+    /* float: top; */
+  /* position: relative; */
+  
+
+  /* height: 0.1vh;    */
+  
+
+  .skill-title {
+
+    
+  }
   
 
   /* font-size: 10vw;
