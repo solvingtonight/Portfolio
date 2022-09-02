@@ -4,24 +4,40 @@ body {
     font-family:"Roboto";
     color:navy;
     width: 100%;
-    flex-direction: column;
+    flex-direction: row;
   }
   nav {
     width: 100%;
-    height: 15vw;
-    background-color: rgb(255, 255, 255);
+    height: 10vw;
+    background-color: rgb(255, 0, 0);
     position: sticky;
     top: 0;
     box-shadow: 0px 1px 5px #000000;
     z-index: 1;
+    overflow: auto;
   }
   
    .nav-links { 
-  display: none;
+    /* display: ; */
+    width: 33%;
+    padding: 3vw;
+    /* height: 100%; */
+    /* float: right; */
+    position: relative;
+    right: -30vw;
+    top: -3vw;
+    /* list-style-position: inside; */
+    font-size: 5vw;
+    text-align: right;
+
+
+  /* flex-direction: row; */
+  /* flex: content; */
   }
      a {
       color: black; 
       text-decoration: none;
+      height: 50vw;
     }
   
   a:link {
@@ -35,15 +51,17 @@ body {
     social-resume {
   width: 100%;
   display: flex;
-  flex-direction: column;
-  height:120vw;
+  flex-direction: row;
+  height:40vw;
   
     }
   
    social-resume-box {  
       display: flex;
-      flex-direction: column;
-      font-size: 1.5rem;
+      /* flex: 2 */
+      /* width 50%; */
+      flex-direction: row;
+      /* font-size: 1.5rem; */
       color: blue; 
        border-radius: 9px;
       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -51,16 +69,20 @@ body {
      
       margin: auto;
            position: relative;
-        display: inline-block;
-        overflow: hidden;
+        /* display: inline-block; */
+        /* overflow: hidden; */
          } 
     
   
       .social-box {
         display: block;
-        margin: auto;
+        /* flex: 1; */
+        /* margin: auto; */
         text-decoration: none;
-      
+        /* position: relative;
+        overflow: hidden;
+        width: 10%; */
+      /* width: 49%; */
         
         flex-direction: column;
         font-size: 1.5rem;
@@ -68,13 +90,50 @@ body {
          border-radius: 9px;
          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
          transition-duration: 0.3s;
-        height:  50vw;
-        width: 80vw;
+        /* height:  50vw; */
+        width: 40vw;
           position: relative;
           overflow: hidden;
         }
       
+social-resume-image {
+    top: 10vw;
+    position: relative; 
+    width: 50px;
+  
+}        
       
+.social-resume-headlines {
+    color: navy;
+    font-weight: 700;
+    font-size:3vw;
+    position: relative;
+    top: 15vw;
+   padding-left: 5vw;
+   padding-right: 5vw;
+
+}
+
+.social-resume-bylines {
+    color: navy;
+    font-weight: 300;
+    font-size:3vw;
+    position: relative;
+    top: 15vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+}
+
+.resume-image {
+    /* width: 1%; */
+    /* height: auto;
+    display: flex   */
+top: -10px;
+position: relative;
+margin: 5vw;
+;
+}
   
   header, about-me {
     display: flex;
@@ -123,15 +182,11 @@ body {
   }
   
   .menu-icon {
-    position: absolute;
-    top: 30%;
-    right: 0px;
-    padding: 0 5vw;
+  display: block;
+  width: 0%; 
   }
   
-  .menu-icon:active {
-    animation: wobbly-knife .5s;
-  }
+  
   
   H1 {
     font-size:10vw;
@@ -148,6 +203,9 @@ body {
   
   }
   
+
+
+
   .cta {
     background-color: white; 
     color: navy; 
@@ -193,6 +251,13 @@ body {
   
   .anthony {
   
+  position: relative;
+  top: -20vw;
+  width: 35%;
+  float: left;
+  /* position: relative; */
+  left:-25vw;
+
   display: block;
     margin-left: auto;
     margin-right: auto;
@@ -202,7 +267,7 @@ body {
   h3 {
     text-align: center;
     font-size: 8vw;
-    top: vw;
+    top: 10vw;
     position: relative;
   }
   
@@ -225,13 +290,23 @@ body {
     margin-bottom: 10vw;
   }
   
+.headline-skills {
+position: relative;
+top: -5vw;
+
+}
+
   skills {
-  
+  height: 300vw;
   
        display: flex;
-       flex-direction: column;
+       
       width: 100%;
       text-align: center;
+      
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   
   .skill-hover:hover {
@@ -247,43 +322,53 @@ body {
   }
   
   
-  social-resume-box:not(:last-child) {
+  /* social-resume-box (:last-child) {
     margin-bottom: 1vw;
-  }
+  } */
     
   
   skill-box:not(:last-child) {
-    margin-bottom: 10vw;
+    margin-bottom: 23vw;
+    margin: auto;
+  }
+    skill-box:(:last-child) {
+        /* margin-bottom: 23vw; */
+        /* margin: 50%; */
+        /* align-items: center; */
+        /* flex: 1; */
+        position: absolute;
+        left: 50vw;
+    
+
   }
     
   skill-box {
-    margin: auto;
+    /* margin: auto; */
   
-    display: flex;
-    flex-direction: column;
     font-size: 1.5rem;
     color: blue; 
      border-radius: 9px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     transition-duration: 0.3s;
-     width:80vw;
+     width:45vw;
     height:  60vw;
       position: relative;
       display: inline-block;
       overflow: hidden;
+      
     }
   
     
   skill-image {
     top: 10vw;
   position: relative; 
-  width: 10px;
+  width: 5vw;
      } 
   
   h5 {
     color: navy;
     font-weight: 700;
-    font-size:5vw;
+    font-size:3vw;
     position: relative;
     top: 2vw;
    padding-left: 10vw;
@@ -306,9 +391,11 @@ body {
     blog {
   
          display: flex;
-         flex-direction: column;
+         flex-direction: row;
+
         width: 100%;
         text-align: center;
+        flex-wrap: wrap;
     }
     
     .blog-hover:hover {
@@ -329,7 +416,7 @@ body {
        border-radius: 9px;
          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
          transition-duration: 0.3s;
-       width:80vw;
+       width:40vw;
       height:  100vw;
         position: relative;
         display: inline-block;
@@ -359,11 +446,11 @@ body {
   
       color: navy;
     font-weight: 300;
-    font-size:3vw;
+    font-size:2.5vw;
     position: relative;
     top: 0vw;
-    padding-left: 15vw;
-    padding-right: 15vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
     /* padding-top: -15vw; */
     /* padding-bottom: 15vw; */
     overflow: hidden;

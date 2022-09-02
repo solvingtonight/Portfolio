@@ -9,7 +9,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" href="style.css" media='screen and (min-width: 500px) and (max-width: 899px)' href="tablet.css"/>
+    <!-- <link rel="stylesheet" media="screen and (max-width: 499px)" href="style.css" media="screen and (min-width: 500px) and (max-width: 899px)" href='tablet.css' media="screen and (min-width: 900px)" href="style.css"> -->
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="style.css">
+    <link rel="stylesheet" media="screen and (min-width: 601px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (min-width: 900px)" href="computer.css">
 
 </head>
 
@@ -50,51 +53,55 @@
 <social-resume>
    <social-resume-box class="social-resume-hover">
     <a href="https://www.linkedin.com/in/anthonyebell/" target="_blank" class="social-box"> 
-        <about-me-image>
+        <social-resume-image>
             <img src="images/iconmonstr-linkedin-3.svg" 
             alt="Linkedin logo" 
             
             width="20%">
-        </about-me-image>
+        </social-resume-image>
        
-        <h5>
+        <h5 class="social-resume-headlines">
             Connect with me on Linkedin
         </h5>
 
-        <p>
+        <p class="social-resume-bylines">
          Lets start a conversation
         </p>
     </a>
     </social-resume-box>
     <social-resume-box class="social-resume-hover">
      <a href="https://drive.google.com/file/d/1Fngef2sAnqrJHZYteUo9caIC1nAYXZwh/view?usp=sharing" target="_blank" class="social-box"> 
-         <about-me-image>
+         <social-resume-image>
             <img src="images/Anthony_Bell_-_Head_of_Marketing-1.png"
             alt= "anthony's resume" 
             class="Resume image"
-            height="40%">
-         </about-me-image>
+            width="20%">
+         </social-resume-image>
         
-         <h5>
+         <h5 class="social-resume-headlines">
              Read my resume
             
-         </h5>
+         </h5 class="social-resume-headlines">
  
-         <p>
-            I've been around the digital world        </p>
+         <p class="social-resume-bylines">
+            I've been around the digital world       
+         </p class="social-resume-bylines">
      </a>
     </social-resume-box>
 </social-resume>        
  <Main>
-<about-me>
-<h3>
-    About Me
+    <h3 class="about-me-headline">
+        About Me
     </h3>
-    <img src="images/Anthony.jpg" alt="photo of Anthony Bell" class="anthony" height="auto" width="60%">
-<h4> 
-    Anthony Bell, Head of Digital
-
-</h4>
+        <h4 class="about-me-byline"> 
+            Anthony Bell, Head of Digital
+        
+        </h4>
+        
+        
+    
+    <about-me>
+    <img src="images/Anthony.jpg" alt="photo of Anthony Bell" class="anthony">
     <ul class="about-me-list">
         <li> 7 years of digital experience in start/scale ups across Sydney, London and New York.
             </li>
@@ -107,10 +114,11 @@
         </li>
       </ul>
  </main>                
+ <h3 class="headline-skills">Skills</h3>
 </about-me>
 
 <skills>
-    <h3>Skills</h3>
+  
 
       <skill-box class="skill-hover">
         <skill-image>
@@ -240,9 +248,10 @@
 </skills>
 
 
+<h4 class="blog-headline">Blog</h4>
 <blog>
 
-<h4>Blog</h4>
+
 
 
     <blog-box class="skill-hover">
@@ -252,7 +261,7 @@
             height="30%">
         </blog-image>
        
-        <h5>
+        <h5 class="h-blog">
             <br>How many screens are too many?</br>
         </h5>
 
@@ -270,7 +279,7 @@
             height="30%">
         </blog-image>
        
-        <h5>
+        <h5 class="h-blog">
             <br>Does my phone look wide in this?</br>
         </h5>
 
@@ -288,7 +297,7 @@
             height="30%">
         </blog-image>
        
-        <h5>
+        <h5 class="h-blog">
             <br>Why the Forward Slash is Mans Worst Invention</br>
         </h5>
 
@@ -306,7 +315,7 @@
             height="30%">
         </blog-image>
        
-        <h5>
+        <h5 class="h-blog">
             <br>What are the Best Settings for your setup? </br>
         </h5>
 

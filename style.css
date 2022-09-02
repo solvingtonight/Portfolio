@@ -1,4 +1,4 @@
-
+/* mobile view, no margin collums, full width */
 body {
   margin: 0;
   font-family:"Roboto";
@@ -6,6 +6,7 @@ body {
   width: 100%;
   flex-direction: column;
 }
+/* sticky nav so it stays on screen, shadow to give depth, z index to stay on top */
 nav {
   width: 100%;
   height: 15vw;
@@ -15,6 +16,7 @@ nav {
   box-shadow: 0px 1px 5px #000000;
   z-index: 1;
 }
+/* not displaying nav links in movbile view */
 
  .nav-links { 
 display: none;
@@ -32,6 +34,7 @@ a:link {
     color:  rgb(10, 70, 211);
   } 
   
+
   social-resume {
 width: 100%;
 display: flex;
@@ -39,7 +42,7 @@ flex-direction: column;
 height:120vw;
 
   }
-
+/* boxes with shadow and lifting animation on hover, I separated each sections box into its own element to modify for each sextion */
  social-resume-box {  
     display: flex;
     flex-direction: column;
@@ -50,8 +53,8 @@ height:120vw;
     transition-duration: 0.3s;
    
     margin: auto;
-         position: relative;
-      display: inline-block;
+    position: relative;
+  display: inline-block;
       overflow: hidden;
        } 
   
@@ -92,9 +95,10 @@ header {
     height: 95vw;
 }
 
+
+/* The multi-tool svg has a wobbly, effect on hover, just put random small translate and rotate numbers in */
 .knife {
 
-  /* float: top; */
   position: relative;
   top: -10vw;
 }
@@ -122,6 +126,7 @@ header {
   transform: translateY(4px);
 }
 
+/* menu icon also shakes on click, will need javascript to make a menu come out */
 .menu-icon {
   position: absolute;
   top: 30%;
@@ -148,30 +153,6 @@ h2 {
 
 }
 
-.cta {
-  background-color: white; 
-  color: navy; 
-  border: 2px solid blue;
-  padding: 5% 5%;
-  box-shadow: 0 1vw 2px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
-  transition-duration: 0.3s;
-  width: 50%;
-  margin: auto;
-  text-align: center;
-
-
-
-}
-
-.cta:hover {
-  color: white;
-  background-color: navy;
-
-  transform: translateY(-0.15em);
-}
-
-
-
 about-me {
   height: 200vw;
   color: navy;
@@ -192,7 +173,13 @@ width: 10px;
   }
 
 .anthony {
-
+    position: relative;
+    top: -30vw;
+    width: 75%;
+    margin:auto;
+    /* position: relative; */
+    /* left:-25vw; */
+  
 display: block;
   margin-left: auto;
   margin-right: auto;
@@ -202,7 +189,7 @@ display: block;
 h3 {
   text-align: center;
   font-size: 8vw;
-  top: vw;
+  /* top: vw; */
   position: relative;
 }
 
@@ -212,6 +199,7 @@ h4 {
   top: 0vw;
   position: relative;
 }
+/* simple list with circle dot points, padded for a slightly wider width that the boxes */
 ul.about-me-list {
   list-style-type: circle;
   padding-left: 10vw;
@@ -234,6 +222,7 @@ skills {
     text-align: center;
 }
 
+/* various box hovers */
 .skill-hover:hover {
   transform: translateY(-2px);
 
@@ -246,7 +235,7 @@ skills {
   transform: translateY(-2px);
 }
 
-
+/* margin between boxes */
 social-resume-box:not(:last-child) {
   margin-bottom: 1vw;
 }
@@ -255,7 +244,8 @@ social-resume-box:not(:last-child) {
 skill-box:not(:last-child) {
   margin-bottom: 10vw;
 }
-  
+
+/* the skill box */
 skill-box {
   margin: auto;
 
@@ -273,13 +263,14 @@ skill-box {
     overflow: hidden;
   }
 
-  
+  /* separated image and text elements to align and size */
 skill-image {
   top: 10vw;
 position: relative; 
 width: 10px;
    } 
 
+   /* main h tag for box headlines */
 h5 {
   color: navy;
   font-weight: 700;
@@ -290,6 +281,7 @@ h5 {
  padding-right: 10vw;
   }
 
+  /* p tag used for subheadlines as this is the most text */
   p {
 
     color: navy;
@@ -302,7 +294,7 @@ h5 {
 
   }
   
-
+/* blog section, long box to allow for more text preview */
   blog {
 
        display: flex;
@@ -354,7 +346,7 @@ h6 {
   position: relative;
   top: 2vw;
   }
-
+/* separated blog p for alignment */
   .p-blog{
 
     color: navy;

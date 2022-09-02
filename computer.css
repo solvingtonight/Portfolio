@@ -1,0 +1,513 @@
+
+body {
+  margin: 0;
+  font-family:"Roboto";
+  color:navy;
+  width: 100%;
+  flex-direction: row;
+}
+nav {
+  width: 100%;
+  height: 5vw;
+  background-color: rgb(0, 255, 140);
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 1px 5px #000000;
+  z-index: 1;
+  overflow: auto;
+}
+
+ .nav-links { 
+  /* display: ; */
+  width: 33%;
+  padding: 3vw;
+  /* height: 100%; */
+  /* float: right; */
+  position: relative;
+  right: -50vw;
+  top: -1.5vw;
+  /* list-style-position: inside; */
+  font-size: 3vw;
+  text-align: right;
+
+
+/* flex-direction: row; */
+/* flex: content; */
+}
+   a {
+    color: black; 
+    text-decoration: none;
+    height: 50vw;
+  }
+
+a:link {
+  text-decoration: none;
+  text-align: center;  
+}
+  a:hover {
+    color:  rgb(10, 70, 211);
+  } 
+  
+  social-resume {
+width: 100%;
+display: flex;
+flex-direction: row;
+height:40vw;
+
+  }
+
+ social-resume-box {  
+    /* display: flex; */
+    /* flex: 2
+    width: 50%; */
+    flex-direction: row;
+    top: -25vw;
+
+    /* font-size: 1.5rem; */
+    color: blue; 
+     border-radius: 9px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.3s;
+
+    margin: auto;
+         position: relative;
+      /* display: inline-block; */
+      /* overflow: hidden; */
+       } 
+  
+
+    .social-box {
+      display: block;
+      /* flex: 1; */
+      /* margin: auto; */
+      text-decoration: none;
+      /* position: relative;
+      overflow: hidden;
+      width: 10%; */
+    /* width: 49%; */
+      
+      flex-direction: column;
+      font-size: 1.5rem;
+      color: blue; 
+       border-radius: 9px;
+       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+       transition-duration: 0.3s;
+      height:  25vw;
+      width: 40vw;
+      /* height: fit-content; */
+        position: relative;
+        overflow: hidden;
+      }
+    
+social-resume-image {
+  top: 5vw;
+  position: relative; 
+  width: 50px;
+
+}        
+    
+.social-resume-headlines {
+  color: navy;
+  font-weight: 700;
+  font-size:1.5vw;
+  position: relative;
+  top: 3vw;
+ padding-left: 5vw;
+ padding-right: 5vw;
+
+}
+
+.social-resume-bylines {
+  color: navy;
+  font-weight: 300;
+  font-size:2vw;
+  position: relative;
+  top: 0vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+
+}
+
+.resume-image {
+  /* width: 1%; */
+  /* height: auto;
+  display: flex   */
+top: -10vw;
+position: relative;
+margin: 0vw;
+
+
+;
+}
+
+header, about-me {
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+}
+
+
+header {
+  height: 65vw;
+  text-align: center;
+}
+
+  about-me {
+    height: 95vw;
+}
+
+.knife {
+
+  /* float: top; */
+  position: relative;
+  top: -10vw;
+  width: 80vw;
+  margin: auto;
+}
+
+.knife:hover {
+  animation: wobbly-knife 0.6s;
+  animation-iteration-count: infinite;
+}
+@keyframes wobbly-knife {
+  0% { transform: translate(-1px, 1px) rotate(-1deg); }
+  10% { transform: translate(1px, -3px) rotate(-1deg); } 
+  20% { transform: translate(-2px, 2px) rotate(1deg); }
+  30% { transform: translate(1px, 3px) rotate(0deg); }
+  40% { transform: translate(-2px, 1px) rotate(1deg); } 
+  50% { transform: translate(2px, -2px) rotate(-1deg); } 
+  60% { transform: translate(-1x, 3px) rotate(0deg); }
+  70% { transform: translate(2px, -1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -2px) rotate(1deg); }
+  90% { transform: translate(1px, 1px) rotate(0deg); }
+  100% { transform: translate(-1px, -1px) rotate(1deg); }
+}
+
+.home-logo:active {
+  animation: wobbly-knife 0.6s;
+  transform: translateY(4px);
+}
+
+.menu-icon {
+display: block;
+width: 0%; 
+}
+
+
+
+H1 {
+  font-size:8vw;
+  position: relative;
+  top: -20vw ;
+}
+  
+h2 {
+  color: navy;
+  font-weight: 700;
+  font-size:4vw;
+  position: relative;
+  top: -25vw;
+
+}
+
+
+
+
+.cta:hover {
+  color: white;
+  background-color: navy;
+
+  transform: translateY(-0.15em);
+}
+
+
+
+about-me {
+  /* display: flex; */
+   /* flex-direction: row; */
+  /* flex: 33.33%;
+  width: 33%; */ */
+
+
+  height: 200vw;
+  color: navy;
+  font-weight: 300;
+  /* font-size: 2vw; */
+  /* display: flex;
+  flex-direction: row; */
+ /* width: 100%; */
+
+ text-align: right;
+ text-decoration: none;
+}
+  
+about-me-image {
+/* display: flex;
+flex: 2; */
+/* top: 3vw;
+position: relative; 
+width: 50%; */
+
+
+  }
+/* 
+  img {
+  width:10px;  
+  } */
+
+.anthony {
+  position: relative;
+  top: -30vw;
+  width: 25%;
+  float: left;
+  /* position: relative; */
+  left:-25vw;
+
+  /* margin: auto; */
+  /* margin-left: auto;
+  margin-right: auto; */
+
+}
+
+h3 {
+  text-align: center;
+  font-size: 2vw;
+  top: -30vw;
+  position: relative;
+}
+
+h4 {
+  text-align: center;
+  font-size: 1.75vw;
+  top: -30vw;
+  position: relative;
+}
+ul.about-me-list {
+  position: relative;
+  list-style-type: circle;
+  padding-left: 50vw;
+  padding-right: 5vw;
+  top: -55vw;
+  font-size: 1.5vw;
+  line-height: 2vw;
+  text-align: left;
+  
+}
+
+.about-me-list {
+/* left: 75vw; */
+
+}
+
+li:not(:last-child) {
+  margin-bottom: 1vw;
+}
+
+.headline-skills {
+position: relative;
+top: -90vw;
+font-size: 2vw;
+
+
+}
+
+skills {
+height: 50vw;
+/* top: -150vw; */
+     display: flex;
+     
+    width: 100%;
+    text-align: center;
+    
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skill-hover:hover {
+  transform: translateY(-2px);
+
+  
+}
+.social-resume-hover:hover {
+  transform: translateY(-2px);
+}
+.about-me-hover:hover {
+  transform: translateY(-2px);
+}
+
+
+/* social-resume-box (:last-child) {
+  margin-bottom: 1vw;
+} */
+  
+
+/* skill-box:not(:last-child) {
+  margin-bottom: 23vw;
+  margin: auto; */
+
+  skill-box:last-child {
+    margin:auto;
+      /* margin-bottom: 23vw; */
+      /* margin: 50%; */
+      /* align-items: center; */
+      /* flex: 1; */
+      /* position: absolute; */
+      /* left: 50vw; */
+  
+
+}
+  
+skill-box {
+  /* margin: auto; */
+flex-wrap: wrap;
+  /* font-size: 1.5rem; */
+  color: blue; 
+   border-radius: 9px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.3s;
+   width:30vw;
+  height:  15vw;
+  top: -90vw;
+    /* position: relative;
+    display: inline-block; */
+    overflow: hidden;
+    
+  }
+
+  
+skill-image {
+  top: 2vw;
+position: relative; 
+width: 1vw;
+   } 
+
+h5 {
+  color: navy;
+  font-weight: 700;
+  font-size:1vw;
+  position: relative;
+  top: -1.20vw;
+ padding-left: 0vw;
+ padding-right: 0vw;
+  }
+
+  p {
+
+    color: navy;
+  font-weight: 300;
+  font-size:1vw;
+  position: relative;
+  top: -2vw;
+  padding-left: 0vw;
+  padding-right: 0vw;
+
+  }
+  
+
+  blog {
+    height: 1vw;
+    /* top: -150vw; */
+         /* display: flex; */
+         
+        width: 100%;
+        text-align: center;
+        
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }    
+  
+  .blog-hover:hover {
+    transform: translateY(-2px);
+  }
+  
+.blog-headline {
+  position: relative; 
+  color: navy;
+  font-weight: 700;
+  top: -90vw;
+  /* font-size:1.5vw; */
+  /* position: relative; */
+  /* top: vw; */
+ /* padding-left: 5vw;
+ padding-right: 5vw; */
+
+}
+
+  blog-box {
+    margin-bottom: 1vw;
+  }
+    
+  blog-box {
+    flex-wrap: wrap;
+  font-size: 1.5rem;
+  color: blue; 
+   border-radius: 9px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.3s;
+   width:20vw;
+  height:  40vw;
+  top: -90vw;
+    /* position: relative;
+    display: inline-block; */
+    overflow: hidden;
+    
+  }
+
+  blog-box:last-child {
+    margin:auto;
+
+  }
+  blog-image {
+    top: 1vw;
+   position: relative;
+  width: 10px;
+  height: 10px;
+  
+  height:100px;
+     }
+  
+h6 {
+  color: navy;
+  font-weight: 700;
+  font-size:5vw;
+  position: relative;
+  top: 2vw;
+  }
+
+  .p-blog{
+
+    color: navy;
+  font-weight: 300;
+  font-size:1vw;
+  position: relative;
+  top: 0vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  /* padding-top: -15vw; */
+  /* padding-bottom: 15vw; */
+  overflow: hidden;
+  }
+  
+  .h-blog {
+    color: navy;
+  font-weight: 300;
+  font-size:2vw;
+  position: relative;
+  top: 0vw;
+  /* padding-left: 5vw;
+  padding-right: 5vw; */
+  /* padding-top: -15vw; */
+  /* padding-bottom: 15vw; */
+  overflow: hidden;
+
+  }
+
+  footer {
+
+    height: 40px;
+   
+  }
+
+ 
