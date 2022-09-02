@@ -19,9 +19,12 @@ Blog
 5 blog posts
 
 Screenshots
-blog post 1.png
-blog.png
-Home page.png
+C:\Users\antho\Downloads\FireShot\Home page.png
+C:\Users\antho\Downloads\FireShot\about me.png
+C:\Users\antho\Downloads\FireShot\blog.png
+C:\Users\antho\Downloads\FireShot\blog post 1.png
+
+
 about me.png
 
 Target audience - This is designed for IT professionals and digital recruiters
