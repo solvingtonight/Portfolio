@@ -222,39 +222,6 @@ h2 {
 
 
 
-about-me {
-  /* display: flex; */
-   /* flex-direction: row; */
-  /* flex: 33.33%;
-  width: 33%; */ */
-
-
-  height: 200vw;
-  color: navy;
-  font-weight: 300;
-  /* font-size: 2vw; */
-  /* display: flex;
-  flex-direction: row; */
- /* width: 100%; */
-
- text-align: right;
- text-decoration: none;
-}
-  
-about-me-image {
-/* display: flex;
-flex: 2; */
-/* top: 3vw;
-position: relative; 
-width: 50%; */
-
-
-  }
-/* 
-  img {
-  width:10px;  
-  } */
-
 .anthony {
   position: relative;
   top: -30vw;
@@ -455,6 +422,47 @@ h5 {
     overflow: hidden;
     
   }
+/* separate styling for blog.html for positioning  */
+  .blog-page {
+    flex-wrap: wrap;
+  font-size: 1.5rem;
+  color: blue; 
+   border-radius: 9px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.3s;
+   width:15vw;
+  height:  40vw;
+  top: -225vw;
+    /* position: relative;
+    display: inline-block; */
+    overflow: hidden;
+    
+  }
+
+  .blog-post {
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    color: blue; 
+     border-radius: 9px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.3s;
+     width:15vw;
+    height:  40vw;
+    top: -170vw;
+      /* position: relative;
+      display: inline-block; */
+      overflow: hidden;
+    }
+
+  .p-blog-post
+  {
+text-align: left;
+padding: 30vw;
+position: relative;
+top: -50vw;
+line-height: 1.5;
+  }
+
 
   blog-box:last-child {
     margin:auto;

@@ -341,16 +341,7 @@ top: -135vw;
     margin-bottom: 23vw;
     margin: auto;
   }
-    skill-box:(:last-child) {
-        /* margin-bottom: 23vw; */
-        /* margin: 50%; */
-        /* align-items: center; */
-        /* flex: 1; */
-        position: absolute;
-        left: 50vw;
-    
 
-  }
     
   skill-box {
     /* margin: auto; */
@@ -444,6 +435,50 @@ top: -135vw;
      
       }
     
+      /* separate styling for blog.html as it needs diferent potitioning */
+    .blog-page {
+      margin: auto;
+    
+      display: flex;
+      flex-direction: column;
+      font-size: 1.5rem;
+      color: blue; 
+       border-radius: 9px;
+         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+         transition-duration: 0.3s;
+       width:40vw;
+      height:  100vw;
+        position: relative;
+        top: -200vw;
+        display: inline-block;
+        overflow: hidden;
+     
+      }
+
+      .blog-post {
+        margin: auto;
+      
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5rem;
+        color: blue; 
+         border-radius: 9px;
+           box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+           transition-duration: 0.3s;
+         width:80vw;
+        height:  100vw;
+          position: relative;
+          display: inline-block;
+          overflow: hidden;
+          top: 0vw;
+       
+        }
+  
+      .p-blog-post
+      {
+  text-align: left;
+  
+      }
       
     blog-image {
       top: 10vw;
