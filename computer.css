@@ -259,6 +259,7 @@ width: 50%; */
   position: relative;
   top: -30vw;
   width: 25%;
+  height: 25%;
   float: left;
   /* position: relative; */
   left:-25vw;
@@ -313,7 +314,7 @@ font-size: 2vw;
 
 skills {
 height: 50vw;
-/* top: -150vw; */
+/* top: -300w; */
      display: flex;
      
     width: 100%;
@@ -368,7 +369,7 @@ flex-wrap: wrap;
   transition-duration: 0.3s;
    width:30vw;
   height:  15vw;
-  top: -90vw;
+  top: 50vw;
     /* position: relative;
     display: inline-block; */
     overflow: hidden;
@@ -446,9 +447,9 @@ h5 {
    border-radius: 9px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   transition-duration: 0.3s;
-   width:20vw;
+   width:15vw;
   height:  40vw;
-  top: -90vw;
+  top: -290vw;
     /* position: relative;
     display: inline-block; */
     overflow: hidden;
@@ -483,8 +484,8 @@ h6 {
   font-size:1vw;
   position: relative;
   top: 0vw;
-  padding-left: 5vw;
-  padding-right: 5vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
   /* padding-top: -15vw; */
   /* padding-bottom: 15vw; */
   overflow: hidden;
@@ -493,7 +494,7 @@ h6 {
   .h-blog {
     color: navy;
   font-weight: 300;
-  font-size:2vw;
+  font-size:1.5vw;
   position: relative;
   top: 0vw;
   /* padding-left: 5vw;

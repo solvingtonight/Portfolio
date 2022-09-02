@@ -236,27 +236,31 @@ margin: 5vw;
     font-weight: 300;
     font-size: 5vw;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
    width: 100%;
-   text-align: center;
+   text-align: left;
    text-decoration: none;
+
   }
-    
+/*     
   about-me-image {
   
   top: 10vw;
   position: relative; 
   width: 10px;
-    }
+    } */
   
   .anthony {
   
   position: relative;
-  top: -20vw;
-  width: 35%;
+  top: -0vw;
+  width: 45%;
+  height: 30%;
+  left: 5vw;
+
   float: left;
   /* position: relative; */
-  left:-25vw;
+  /* left:-25vw; */
 
   display: block;
     margin-left: auto;
@@ -280,19 +284,23 @@ margin: 5vw;
   ul.about-me-list {
     list-style-type: circle;
     padding-left: 10vw;
-    padding-right: 10vw;
-    font-size: 3vw;
-    line-height: 5vw;
+    padding-right: 3vw;
+    font-size: 2.5vw;
+    line-height: 3vw;
     
   }
   
   li:not(:last-child) {
-    margin-bottom: 10vw;
+    margin-bottom: 4vw;
+    /* margin-right: 15vw;
+    margin-left: 15vw; */
+    float: right;
+    width: 100%;
   }
   
 .headline-skills {
 position: relative;
-top: -5vw;
+top: -135vw;
 
 }
 
@@ -307,6 +315,8 @@ top: -5vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    position: relative;
+    top: -140vw;
   }
   
   .skill-hover:hover {
@@ -358,7 +368,9 @@ top: -5vw;
       
     }
   
-    
+    skill-box:last-child {
+      margin:auto;
+    }
   skill-image {
     top: 10vw;
   position: relative; 
@@ -387,7 +399,12 @@ top: -5vw;
   
     }
     
-  
+    .blog-headline {
+      position: relative; 
+      color: navy;
+      font-weight: 700;
+      top: -150vw;
+    }
     blog {
   
          display: flex;
@@ -396,6 +413,8 @@ top: -5vw;
         width: 100%;
         text-align: center;
         flex-wrap: wrap;
+        position:relative;
+        top: 200vw;
     }
     
     .blog-hover:hover {
@@ -419,6 +438,7 @@ top: -5vw;
        width:40vw;
       height:  100vw;
         position: relative;
+        top: -350vw;
         display: inline-block;
         overflow: hidden;
      
